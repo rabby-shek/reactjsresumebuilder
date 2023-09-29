@@ -1,4 +1,5 @@
-# Form Input Fields
+# Resume Builder
+## Form Input Fields
 
 ## Personal Information
 
@@ -48,4 +49,5 @@
 - Issued by
 
 ## Additional 
+- Awards
 - Add By Which 
