@@ -40,6 +40,8 @@
   
   /* Right column: CV Preview (70% width) */
   .preview-container {
+    overflow-y: scroll;
+    max-height: 500px;
     flex: 0.6;
     padding: 20px;
     background-color: #f7f7f7;
