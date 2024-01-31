@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const TopNav = () => {
   return (
@@ -20,25 +21,21 @@ const TopNav = () => {
         {/* Collapsible wrapper */}
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           {/* Navbar brand */}
-          <a className="navbar-brand mt-2 mt-lg-0" href="#">
-           <span className="first-word">Smart &nbsp; </span>  <span className="first-word">R</span>esume
-          </a>
+          <NavLink className="navbar-brand mt-2 mt-lg-0" to="/">
+            <span className="first-word">Smart &nbsp; </span>{" "}
+            <span className="first-word">R</span>esume
+          </NavLink>
           {/* Left links */}
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Dashboard
-              </a>
+              <NavLink className="nav-link" to="/">
+                Home
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Team
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Projects
-              </a>
+              <NavLink className="nav-link" to="/suggestions">
+                Suggestions
+              </NavLink>
             </li>
           </ul>
           {/* Left links */}
@@ -46,9 +43,8 @@ const TopNav = () => {
         {/* Collapsible wrapper */}
         {/* Right elements */}
         <div className="d-flex align-items-center">
-      
           {/* Avatar */}
-          <div className="dropdown">
+          {/* <div className="dropdown">
             <a
               className="dropdown-toggle d-flex align-items-center hidden-arrow"
               href="#"
@@ -85,11 +81,9 @@ const TopNav = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
-        {/* Right elements */}
       </div>
-      {/* Container wrapper */}
     </nav>
   );
 };
