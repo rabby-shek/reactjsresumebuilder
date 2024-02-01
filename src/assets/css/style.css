@@ -151,3 +151,15 @@
 .working-details .working-date-period{
     font-size: 14px;
 }
+
+.institutions-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.degree-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

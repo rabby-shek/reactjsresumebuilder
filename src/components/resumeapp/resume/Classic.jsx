@@ -1,31 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import PageTitle from "../PageTitle";
+import Header from "./classicresume/Header";
 
 const Classic = () => {
+ 
   return (
     <>
       <PageTitle pageTitle="Classic Resume" />
       <div className="classic-resume-container">
         {/* classic resume header section*/}
-        <div className="classic-resume-header">
-          <div className="user-name">MD Rabby Shek Suvo</div>
-          <div className="role">ReactJs Developer</div>
-          <ul>
-            <li>01724707680</li>
-            <li>/rabbyhshek1998@gmail.com</li>
-            <li>/Linkedin/Portfolio</li>
-            <li>/Matuail,Demra,Dhaka</li>
-          </ul>
-        </div>
+        <Header />
         {/* classic resume Summery section */}
         <div className="classic-resume-summery">
           <div className="summery-title">Summery</div>
           <hr />
           <div className="summery-content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            cupiditate ad quae temporibus nam deserunt molestias consequuntur
-            architecto, magnam earum omnis eos maxime deleniti quod atque
-            doloribus est, corrupti voluptatem.
+            As a dedicated Front-End Developer at Adova Soft, I played a pivotal
+            role in crafting immersive and user-centric web experiences. Adova
+            Soft, a cutting-edge technology company, thrives on innovation and
+            excellence in software solutions.
           </div>
         </div>
         {/* classic resume skills section */}
@@ -63,7 +56,7 @@ const Classic = () => {
         </div>
         {/* classic resume education section */}
         <div className="classic-resume-education">
-          <div className="education-title">Education</div>
+          <div className="experience-title">Education</div>
           <hr />
           <div className="institutions-details">
             <div className="institutions-name">institutions name</div>
@@ -76,7 +69,7 @@ const Classic = () => {
         </div>
         {/* training courses section */}
         <div className="training-courses">
-          <div className="training-course-title">Course Title</div>
+          <div className="experience-title">Course Title</div>
           <hr />
           <div className="course-institutions-name">
             course institutions name
@@ -84,7 +77,7 @@ const Classic = () => {
         </div>
         {/* passion section */}
         <div className="passions">
-          <div className="passion-title">Passions</div>
+          <div className="experience-title">Passions</div>
           <hr />
           <div className="passion-content">Content</div>
         </div>

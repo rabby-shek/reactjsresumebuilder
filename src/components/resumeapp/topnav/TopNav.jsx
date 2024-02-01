@@ -22,8 +22,12 @@ const TopNav = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           {/* Navbar brand */}
           <NavLink className="navbar-brand mt-2 mt-lg-0" to="/">
-            <span className="first-word">Smart &nbsp; </span>{" "}
-            <span className="first-word">R</span>esume
+          <span className="first-word">Smart &nbsp; </span>{" "}
+            <img style={{
+              width:"40px"
+            }} src="https://t3.ftcdn.net/jpg/04/75/01/06/360_F_475010683_QcMoX9EuZkjVToNNtXCDbejMo4tIj06i.jpg" alt="" />
+            
+            {/* <span className="first-word">R</span>esume */}
           </NavLink>
           {/* Left links */}
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
